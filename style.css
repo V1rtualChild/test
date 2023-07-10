@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+
+
+/* HEAD PAGE */
+
+
+
+#Head{
+    background-image: url("head-bg.jpg");
+    background-size: cover;
+    height: 100svh;
+    /* background-position: center; */
+    /* filter: blur(1px); */
+}
+.description{
+    padding-top: 7em;
+    text-align: center;
+}
+.makeupua{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.h1{
+    color: white;
+    padding-top: 0.4em;
+    font-size: 7em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.p1{
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+}
+.btn-buyhere {
+    cursor: pointer;
+    margin-top: 3.1em;
+    border-radius: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(80, 108, 99);
+    padding: 0.6em 2.7em;
+    border: none;
+    outline: none;
+}
+
+.net img{
+    cursor: pointer;
+    margin-top: 8em;
+    display: inline-block;
+    width: 1.85%;
+}
+.qq{
+    padding-left: 2em;
+}
+
+
+/* DAILYCARE */
+
+
+#dailycare{
+    height: 85svh;
+}
+#dailycare .care{
+    margin-top: 1em;
+    margin-left: 2.2em;
+    font-size: 3.5em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.box1 {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cream-img {
+    cursor: pointer;
+    background-image: url("dior.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img1 {
+    cursor: pointer;
+    background-image: url("green-cream.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img2 {
+    cursor: pointer;
+    background-image: url("emerald.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.price{
+    margin-top: 0.3em;
+    font-size: 1.2em;
+}
+.number-cream{
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+.name-cream{
+    /* margin-top: 4em; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+}
+
+
+/* ABOUT */
+
+
+#about{
+    
+    height: 100svh;
+    background-image: url("jenipher.jpg");
+    background-size: cover;
+}
+.skin{
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Poiret One', cursive;
+    font-size: 5.5em;
+}
+.text-about{
+    padding-left: 6.5em;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+}
+
+
+/* GLOWING SKIN */
+
+
+#glowingskin{
+    height: 85svh;
+}
+#glowingskin .care{
+    margin-top: 1em;
+    margin-left: 2.2em;
+    font-size: 3.5em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.box2 {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cream-img3 {
+    cursor: pointer;
+    background-image: url("orage.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img4 {
+    cursor: pointer;
+    background-image: url("gold.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img5 {
+    cursor: pointer;
+    background-image: url("limmensite.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.price{
+    margin-top: 0.3em;
+    font-size: 1.2em;
+}
+.number-cream{
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+.name-cream{
+    /* margin-top: 4em; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+}
+
+
+/* PHONE DISPLAY */
+
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    #Head {
+        background-image: url("head-bg.jpg");
+        background-size: cover;
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+.description{
+    padding-top: 4.6em;
+    text-align: center;
+}
+.makeupua{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.h1{
+    color: white;
+    padding-top: 0.6em;
+    font-size: 5em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.p1{
+    padding-top: 1em;
+    font-size: 0.9em;
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+}
+.btn-buyhere {
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 6.5em;
+    border-radius: 2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(80, 108, 99);
+    padding: 0.6em 2.7em;
+    border: none;
+    outline: none;
+}
+
+.net img{
+    cursor: pointer;
+    margin-top: 9em;
+    display: inline-block;
+    width: 1.5em;
+}
+.qq{
+    padding-left: 2em;
+}
+
+
+/* DAILYCARE */
+
+
+#dailycare{
+    height: 160svh;
+}
+#dailycare .care{
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 0;
+    font-size: 2.2em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.box1 {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* відцентровування  */
+}
+
+.cream-img {
+    cursor: pointer;
+    background-image: url("dior.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    width: 19em;
+}
+.cream-img1 {
+    margin-top: 1.5em;
+    cursor: pointer;
+    background-image: url("green-cream.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    width: 19em;
+}
+.cream-img2 {
+    margin-top: 1.5em;
+    cursor: pointer;
+    background-image: url("emerald.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 20em;
+    width: 19em;
+}
+.price{
+    margin-top: 0.3em;
+    font-size: 1.2em;
+}
+.number-cream{
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+.name-cream{
+    /* margin-top: 4em; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+}
+
+/* ABOUT */
+
+
+#about{
+    
+    height: 25svh;
+    background-image: url("jenipher.jpg");
+    background-size: cover;
+}
+.skin{
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8em;
+}
+.text-about{
+    padding-left: 0.6em;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+}
+
+
+/* GLOWING SKIN */
+
+
+#glowingskin{
+    height: 143svh;
+}
+#glowingskin .care{
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 0;
+    font-size: 2.2em;
+    font-family: 'Cormorant Garamond', serif;
+}
+.box2 {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* відцентровування  */
+}
+.cream-img3 {
+    cursor: pointer;
+    background-image: url("orage.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img4 {
+    margin-top: 1.5em;
+    cursor: pointer;
+    background-image: url("gold.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.cream-img5 {
+    margin-top: 1.5em;
+    cursor: pointer;
+    background-image: url("limmensite.JPG");
+    background-position: center;
+    background-size: cover;
+    height: 17em;
+    width: 16em;
+}
+.price{
+    margin-top: 0.3em;
+    font-size: 1.2em;
+}
+.number-cream{
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+.name-cream{
+    /* margin-top: 4em; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+}
+}
