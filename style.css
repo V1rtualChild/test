@@ -19,8 +19,9 @@ body{
 
 
 #Head {
-  background-image: url("head-bg.jpg");
-  background-size: cover;
+  background-color: black;
+/*   background-image: url("head-bg.jpg");
+  background-size: cover; */
   height: 100vh;
   /* background-position: center; */
   /* filter: blur(1px); */
