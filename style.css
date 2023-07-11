@@ -245,7 +245,7 @@ body{
 
 @media screen and (min-width: 320px) and (max-width: 720px){
     #Head {
-        background-image: url("emerald.jpg");
+        background-image: url("head-bg.jpg");
         background-size: cover;
         height: 80vh;
         background-position: center;
