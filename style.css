@@ -18,13 +18,14 @@ body{
 
 
 
-#Head{
-    background-image: url("head-bg.jpg");
-    background-size: cover;
-    height: 100svh;
-    /* background-position: center; */
-    /* filter: blur(1px); */
+#Head {
+  background-image: url("head-bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  /* background-position: center; */
+  /* filter: blur(1px); */
 }
+
 .description{
     padding-top: 7em;
     text-align: center;
